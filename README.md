@@ -6,7 +6,7 @@ A simple, fancy, kinda cartoony website created with vanilla JavaScript. You can
 
 ![GitHub](https://img.shields.io/github/license/XnonXte/RockPaperScissors)
 ![GitHub all releases](https://img.shields.io/github/downloads/XnonXte/RockPaperScissors/total)
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/XnonXte/RockPaperScissors)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/XnonXte/RockPaperScissors/main)
 
 ## How-to-install
 
