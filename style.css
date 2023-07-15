@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Roboto:wght@100&display=swap");
+
+* {
+  font-family: "Comic Neue", cursive;
+  background-color: whitesmoke;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px;
+  font-size: 1.1em;
+  background-color: gray;
+}
+
+li a:hover {
+  background-color: #3264ff;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+#output,
+#outer-scores,
+#scores {
+  text-align: center;
+  font-size: 24px;
+  margin: 0;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+label {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+select,
+button {
+  font-size: 18px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+button {
+  background-color: #3264ff;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+button:disabled {
+  background-color: gray;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}

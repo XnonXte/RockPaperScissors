@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- Obviously this website is not 100% original, I mostly stole the design from https://www.rock-paper-scissors-game.com -->
+<!-- I also generated most of the CSS with ChatGPT lmao. -->
+<!-- The code though, is entirely written by me (XnonXte). -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              title="My YouTube page"
+              href="https://www.youtube.com/channel/UCg3phnDCr2_WVigp3Im5LXQ"
+              >YouTube</a
+            >
+          </li>
+          <li>
+            <a
+              target="_blank"
+              title="My Twitter page"
+              href="https://twitter.com/XnonXte"
+              >Twitter</a
+            >
+          </li>
+          <li>
+            <a
+              target="_blank"
+              title="My GitHub page"
+              href="https:/github.com/XnonXte"
+              >GitHub</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <img
+        id="user"
+        src="images/user.png"
+        alt="User's choice"
+        title="User's choice"
+        hidden
+      />
+      <p id="output" hidden></p>
+      <p id="outer-scores" hidden>Scores: <em id="scores">0</em></p>
+      <img
+        id="computer"
+        src="images/computer.png"
+        alt="Computer's choice"
+        title="Computer's choice"
+        hidden
+      />
+    </section>
+    <section>
+      <form action="#">
+        <label for="choices">
+          <select name="choices" id="choices" onchange="onChangeSelect()">
+            <option value="place-holder" disabled selected hidden>
+              Select your choice
+            </option>
+            <option value="Rock">Rock</option>
+            <option value="Paper">Paper</option>
+            <option value="Scissors">Scissors</option>
+          </select>
+        </label>
+        <button
+          disabled
+          id="submit-button"
+          type="submit"
+          onclick="processRPS()"
+        >
+          ...
+        </button>
+      </form>
+    </section>
+
+    <footer>
+      <h2>Rock-Paper-Scissors Game</h2>
+      <p>&copy; 2023 XnonXte - MIT License</p>
+    </footer>
+  </body>
+</html>
