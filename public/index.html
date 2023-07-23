@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<!-- Obviously this website is not 100% original, I mostly stole the design from https://www.rock-paper-scissors-game.com -->
-<!-- I also generated most of the CSS with ChatGPT lmao. -->
-<!-- The code though, is entirely written by me (XnonXte). -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Rock-Paper-Scissors"
+      description="Plays rock paper scissors in your browser!"
+    />
     <title>Rock Paper Scissors</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <script src="../dist/app.js"></script>
   </head>
   <body>
     <header>
@@ -44,7 +45,7 @@
     <section>
       <img
         id="user"
-        src="images/user.png"
+        src="../images/user.png"
         alt="User's choice"
         title="User's choice"
         hidden
@@ -53,7 +54,7 @@
       <p id="outer-scores" hidden>Scores: <em id="scores">0</em></p>
       <img
         id="computer"
-        src="images/computer.png"
+        src="../images/computer.png"
         alt="Computer's choice"
         title="Computer's choice"
         hidden

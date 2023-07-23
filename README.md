@@ -1,6 +1,6 @@
 # Rock-Paper-Scissors Game
 
-![Website mockup](mockup.png)
+![Website mockup](images/mockup.png)
 
 A simple, fancy, kinda cartoony website created with vanilla JavaScript. You can play this game if you're bored!
 
